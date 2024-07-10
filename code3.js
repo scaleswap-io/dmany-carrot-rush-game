@@ -722,9 +722,37 @@ for (var i = 0, k = 0, l = gdjs.Carrot_32Rush_32GameCode.GDButtonArea_9595UPObje
 }
 gdjs.Carrot_32Rush_32GameCode.GDButtonArea_9595UPObjects2.length = k;
 if (isConditionTrue_0) {
+/* Reuse gdjs.Carrot_32Rush_32GameCode.GDButtonArea_9595UPObjects2 */
 gdjs.copyArray(runtimeScene.getObjects("Rabbitoid_Blue"), gdjs.Carrot_32Rush_32GameCode.GDRabbitoid_9595BlueObjects2);
 {for(var i = 0, len = gdjs.Carrot_32Rush_32GameCode.GDRabbitoid_9595BlueObjects2.length ;i < len;++i) {
     gdjs.Carrot_32Rush_32GameCode.GDRabbitoid_9595BlueObjects2[i].getBehavior("TopDownMovement").simulateUpKey();
+}
+}{for(var i = 0, len = gdjs.Carrot_32Rush_32GameCode.GDButtonArea_9595UPObjects2.length ;i < len;++i) {
+    gdjs.Carrot_32Rush_32GameCode.GDButtonArea_9595UPObjects2[i].getBehavior("FlashColor").Flash(1, "180;180;255", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("ButtonArea_UP"), gdjs.Carrot_32Rush_32GameCode.GDButtonArea_9595UPObjects2);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.Carrot_32Rush_32GameCode.GDButtonArea_9595UPObjects2.length;i<l;++i) {
+    if ( !(gdjs.Carrot_32Rush_32GameCode.GDButtonArea_9595UPObjects2[i].getBehavior("ButtonFSM").IsPressed((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))) ) {
+        isConditionTrue_0 = true;
+        gdjs.Carrot_32Rush_32GameCode.GDButtonArea_9595UPObjects2[k] = gdjs.Carrot_32Rush_32GameCode.GDButtonArea_9595UPObjects2[i];
+        ++k;
+    }
+}
+gdjs.Carrot_32Rush_32GameCode.GDButtonArea_9595UPObjects2.length = k;
+if (isConditionTrue_0) {
+/* Reuse gdjs.Carrot_32Rush_32GameCode.GDButtonArea_9595UPObjects2 */
+{for(var i = 0, len = gdjs.Carrot_32Rush_32GameCode.GDButtonArea_9595UPObjects2.length ;i < len;++i) {
+    gdjs.Carrot_32Rush_32GameCode.GDButtonArea_9595UPObjects2[i].getBehavior("FlashColor").Stop((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }
 }}
 
@@ -746,9 +774,37 @@ for (var i = 0, k = 0, l = gdjs.Carrot_32Rush_32GameCode.GDButtonArea_9595DOWNOb
 }
 gdjs.Carrot_32Rush_32GameCode.GDButtonArea_9595DOWNObjects2.length = k;
 if (isConditionTrue_0) {
+/* Reuse gdjs.Carrot_32Rush_32GameCode.GDButtonArea_9595DOWNObjects2 */
 gdjs.copyArray(runtimeScene.getObjects("Rabbitoid_Blue"), gdjs.Carrot_32Rush_32GameCode.GDRabbitoid_9595BlueObjects2);
 {for(var i = 0, len = gdjs.Carrot_32Rush_32GameCode.GDRabbitoid_9595BlueObjects2.length ;i < len;++i) {
     gdjs.Carrot_32Rush_32GameCode.GDRabbitoid_9595BlueObjects2[i].getBehavior("TopDownMovement").simulateDownKey();
+}
+}{for(var i = 0, len = gdjs.Carrot_32Rush_32GameCode.GDButtonArea_9595DOWNObjects2.length ;i < len;++i) {
+    gdjs.Carrot_32Rush_32GameCode.GDButtonArea_9595DOWNObjects2[i].getBehavior("FlashColor").Flash(1, "180;180;255", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("ButtonArea_DOWN"), gdjs.Carrot_32Rush_32GameCode.GDButtonArea_9595DOWNObjects2);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.Carrot_32Rush_32GameCode.GDButtonArea_9595DOWNObjects2.length;i<l;++i) {
+    if ( !(gdjs.Carrot_32Rush_32GameCode.GDButtonArea_9595DOWNObjects2[i].getBehavior("ButtonFSM").IsPressed((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))) ) {
+        isConditionTrue_0 = true;
+        gdjs.Carrot_32Rush_32GameCode.GDButtonArea_9595DOWNObjects2[k] = gdjs.Carrot_32Rush_32GameCode.GDButtonArea_9595DOWNObjects2[i];
+        ++k;
+    }
+}
+gdjs.Carrot_32Rush_32GameCode.GDButtonArea_9595DOWNObjects2.length = k;
+if (isConditionTrue_0) {
+/* Reuse gdjs.Carrot_32Rush_32GameCode.GDButtonArea_9595DOWNObjects2 */
+{for(var i = 0, len = gdjs.Carrot_32Rush_32GameCode.GDButtonArea_9595DOWNObjects2.length ;i < len;++i) {
+    gdjs.Carrot_32Rush_32GameCode.GDButtonArea_9595DOWNObjects2[i].getBehavior("FlashColor").Stop((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }
 }}
 
@@ -770,9 +826,65 @@ for (var i = 0, k = 0, l = gdjs.Carrot_32Rush_32GameCode.GDButtonArea_9595LEFTOb
 }
 gdjs.Carrot_32Rush_32GameCode.GDButtonArea_9595LEFTObjects2.length = k;
 if (isConditionTrue_0) {
+/* Reuse gdjs.Carrot_32Rush_32GameCode.GDButtonArea_9595LEFTObjects2 */
 gdjs.copyArray(runtimeScene.getObjects("Rabbitoid_Blue"), gdjs.Carrot_32Rush_32GameCode.GDRabbitoid_9595BlueObjects2);
 {for(var i = 0, len = gdjs.Carrot_32Rush_32GameCode.GDRabbitoid_9595BlueObjects2.length ;i < len;++i) {
     gdjs.Carrot_32Rush_32GameCode.GDRabbitoid_9595BlueObjects2[i].getBehavior("TopDownMovement").simulateLeftKey();
+}
+}{for(var i = 0, len = gdjs.Carrot_32Rush_32GameCode.GDButtonArea_9595LEFTObjects2.length ;i < len;++i) {
+    gdjs.Carrot_32Rush_32GameCode.GDButtonArea_9595LEFTObjects2[i].getBehavior("FlashColor").Flash(1, "180;180;255", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("ButtonArea_LEFT"), gdjs.Carrot_32Rush_32GameCode.GDButtonArea_9595LEFTObjects2);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.Carrot_32Rush_32GameCode.GDButtonArea_9595LEFTObjects2.length;i<l;++i) {
+    if ( !(gdjs.Carrot_32Rush_32GameCode.GDButtonArea_9595LEFTObjects2[i].getBehavior("ButtonFSM").IsPressed((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))) ) {
+        isConditionTrue_0 = true;
+        gdjs.Carrot_32Rush_32GameCode.GDButtonArea_9595LEFTObjects2[k] = gdjs.Carrot_32Rush_32GameCode.GDButtonArea_9595LEFTObjects2[i];
+        ++k;
+    }
+}
+gdjs.Carrot_32Rush_32GameCode.GDButtonArea_9595LEFTObjects2.length = k;
+if (isConditionTrue_0) {
+/* Reuse gdjs.Carrot_32Rush_32GameCode.GDButtonArea_9595LEFTObjects2 */
+{for(var i = 0, len = gdjs.Carrot_32Rush_32GameCode.GDButtonArea_9595LEFTObjects2.length ;i < len;++i) {
+    gdjs.Carrot_32Rush_32GameCode.GDButtonArea_9595LEFTObjects2[i].getBehavior("FlashColor").Stop((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("ButtonArea_RIGHT"), gdjs.Carrot_32Rush_32GameCode.GDButtonArea_9595RIGHTObjects2);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.Carrot_32Rush_32GameCode.GDButtonArea_9595RIGHTObjects2.length;i<l;++i) {
+    if ( gdjs.Carrot_32Rush_32GameCode.GDButtonArea_9595RIGHTObjects2[i].getBehavior("ButtonFSM").IsPressed((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+        isConditionTrue_0 = true;
+        gdjs.Carrot_32Rush_32GameCode.GDButtonArea_9595RIGHTObjects2[k] = gdjs.Carrot_32Rush_32GameCode.GDButtonArea_9595RIGHTObjects2[i];
+        ++k;
+    }
+}
+gdjs.Carrot_32Rush_32GameCode.GDButtonArea_9595RIGHTObjects2.length = k;
+if (isConditionTrue_0) {
+/* Reuse gdjs.Carrot_32Rush_32GameCode.GDButtonArea_9595RIGHTObjects2 */
+gdjs.copyArray(runtimeScene.getObjects("Rabbitoid_Blue"), gdjs.Carrot_32Rush_32GameCode.GDRabbitoid_9595BlueObjects2);
+{for(var i = 0, len = gdjs.Carrot_32Rush_32GameCode.GDRabbitoid_9595BlueObjects2.length ;i < len;++i) {
+    gdjs.Carrot_32Rush_32GameCode.GDRabbitoid_9595BlueObjects2[i].getBehavior("TopDownMovement").simulateRightKey();
+}
+}{for(var i = 0, len = gdjs.Carrot_32Rush_32GameCode.GDButtonArea_9595RIGHTObjects2.length ;i < len;++i) {
+    gdjs.Carrot_32Rush_32GameCode.GDButtonArea_9595RIGHTObjects2[i].getBehavior("FlashColor").Flash(1, "180;180;255", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }
 }}
 
@@ -786,7 +898,7 @@ gdjs.copyArray(runtimeScene.getObjects("ButtonArea_RIGHT"), gdjs.Carrot_32Rush_3
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 for (var i = 0, k = 0, l = gdjs.Carrot_32Rush_32GameCode.GDButtonArea_9595RIGHTObjects1.length;i<l;++i) {
-    if ( gdjs.Carrot_32Rush_32GameCode.GDButtonArea_9595RIGHTObjects1[i].getBehavior("ButtonFSM").IsPressed((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+    if ( !(gdjs.Carrot_32Rush_32GameCode.GDButtonArea_9595RIGHTObjects1[i].getBehavior("ButtonFSM").IsPressed((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))) ) {
         isConditionTrue_0 = true;
         gdjs.Carrot_32Rush_32GameCode.GDButtonArea_9595RIGHTObjects1[k] = gdjs.Carrot_32Rush_32GameCode.GDButtonArea_9595RIGHTObjects1[i];
         ++k;
@@ -794,9 +906,9 @@ for (var i = 0, k = 0, l = gdjs.Carrot_32Rush_32GameCode.GDButtonArea_9595RIGHTO
 }
 gdjs.Carrot_32Rush_32GameCode.GDButtonArea_9595RIGHTObjects1.length = k;
 if (isConditionTrue_0) {
-gdjs.copyArray(runtimeScene.getObjects("Rabbitoid_Blue"), gdjs.Carrot_32Rush_32GameCode.GDRabbitoid_9595BlueObjects1);
-{for(var i = 0, len = gdjs.Carrot_32Rush_32GameCode.GDRabbitoid_9595BlueObjects1.length ;i < len;++i) {
-    gdjs.Carrot_32Rush_32GameCode.GDRabbitoid_9595BlueObjects1[i].getBehavior("TopDownMovement").simulateRightKey();
+/* Reuse gdjs.Carrot_32Rush_32GameCode.GDButtonArea_9595RIGHTObjects1 */
+{for(var i = 0, len = gdjs.Carrot_32Rush_32GameCode.GDButtonArea_9595RIGHTObjects1.length ;i < len;++i) {
+    gdjs.Carrot_32Rush_32GameCode.GDButtonArea_9595RIGHTObjects1[i].getBehavior("FlashColor").Stop((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }
 }}
 
