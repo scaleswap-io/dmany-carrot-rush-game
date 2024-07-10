@@ -164,7 +164,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.7)
 
 
 };gdjs.Boosts_32MenuCode.mapOfGDgdjs_9546Boosts_959532MenuCode_9546GDTGButtonObjects1Objects = Hashtable.newFrom({"TGButton": gdjs.Boosts_32MenuCode.GDTGButtonObjects1});
-gdjs.Boosts_32MenuCode.userFunc0xf25b68 = function GDJSInlineCode(runtimeScene) {
+gdjs.Boosts_32MenuCode.userFunc0x164a7f0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 runtimeScene.setBackgroundColor(100,100,240);
 const TGCheck = runtimeScene.getGame().getVariables().get("TelegramGoldenCarrotON")
@@ -182,7 +182,7 @@ gdjs.Boosts_32MenuCode.eventsList1 = function(runtimeScene) {
 {
 
 
-gdjs.Boosts_32MenuCode.userFunc0xf25b68(runtimeScene);
+gdjs.Boosts_32MenuCode.userFunc0x164a7f0(runtimeScene);
 
 }
 
