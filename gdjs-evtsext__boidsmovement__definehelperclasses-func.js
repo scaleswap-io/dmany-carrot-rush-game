@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__BoidsMovement__DefineHelperClasses !== "undefined") {
 gdjs.evtsExt__BoidsMovement__DefineHelperClasses = {};
 
 
-gdjs.evtsExt__BoidsMovement__DefineHelperClasses.userFunc0x12cd2d0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__BoidsMovement__DefineHelperClasses.userFunc0x1954188 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 if (gdjs.__boidsExtension) {
   return;
@@ -481,7 +481,7 @@ gdjs.evtsExt__BoidsMovement__DefineHelperClasses.eventsList0 = function(runtimeS
 {
 
 
-gdjs.evtsExt__BoidsMovement__DefineHelperClasses.userFunc0x12cd2d0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__BoidsMovement__DefineHelperClasses.userFunc0x1954188(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

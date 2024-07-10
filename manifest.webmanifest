@@ -2,7 +2,7 @@
   "name": "Carrot Rush",
   "short_name": "Carrot Rush",
   "id": "com.example.gamename",
-  "description": "",
+  "description": "Carrot Rush is a P2E arcade Telegram Mini Game powered by Dmany.",
   "orientation": "portrait",
   "start_url": "./index.html",
   "display": "standalone",
